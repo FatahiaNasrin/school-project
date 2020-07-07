@@ -25,3 +25,15 @@ h1{
     border: none;
     padding:9px 25px;
 }
+.book1,.book2, .book3, .book4{
+    background-color: #f8fffb;
+    padding: 10px 40px;
+    box-shadow: 2px 2px 5px skyblue;
+    border-radius: 10px;
+}
+.hover-class:hover{
+    background-color: rgb(247, 240, 247);
+    cursor: pointer;
+}
+
+
