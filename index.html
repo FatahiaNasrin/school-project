@@ -11,7 +11,8 @@
 </head>
 <body>
 
- <main class="top-background">
+  <!--Nav Section start-->
+ <header class="top-background">
     <div class="container top-part">
         <nav class="navbar navbar-expand-lg navbar-light white-bg">
             <a class="navbar-brand" href="#logo">
@@ -31,18 +32,17 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#admission">Admission</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#blog">Blog</a>
-                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Other Program
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#academic">Academic</a>
-                      <a class="dropdown-item" href="#school life">School Life</a>
+                      <a class="dropdown-item" href="#benefits">Benefits</a>
                       <a class="dropdown-item" href="#events">Events</a>
                     </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact us</a>
                   </li>
                   <button class="button"> sign in</button>
               </ul>
@@ -50,7 +50,9 @@
           </nav>
     </div>
     
+    <!--nav section finish-->
 
+    <!--top section start-->
     <section >
         <div class="container pt-5 pb-5">
         <div class="row align-items-center">
@@ -67,9 +69,12 @@
         </div>
     </div>
     </section>
-</main>
+  </header>
+<!--top section finish-->
 
-<div class="container books" id="books">
+<!--books section start-->
+<section>
+<div class="container books mt-5" id="books">
     <div class="  d-flex justify-content-between align-items-center ">
         <h2 class="mb-3">Books</h2>
     <small class="text-warning">See all books option</small>
@@ -105,7 +110,12 @@
         </div>
     </div>
 </div>
+</section>
+<!--books section finish-->
 
+
+<!--course section start-->
+<article>
    <div class="container courses mt-5" id="courses">
        <h2 class="pt-5 pb-4 text-center"> Online Courses</h2>
        <div class="card-deck">
@@ -138,8 +148,7 @@
                 <img class="mt-5 ml-5 " src="images/ICOn/people.png" alt="">
                 <small class="mt-5"> 60 Seats </small>
         </div>
-        </div>
-            
+        </div>          
           </div>
         </div>
         <div class="card">
@@ -147,8 +156,7 @@
           <img src="images/Photos/Morder pychons.png" class="card-img-top" alt="...">
             <h5 class="card-title pt-4">Modern Phychology</h5>
             <p class="card-text">Designation</p>
-            <button class="button"> Enroll Now</button>
-            
+            <button class="button"> Enroll Now</button> 
             <div class="d-flex flex-row align-items-center justify-content-start">
             <img class="mt-5 ml-3" src="images/ICOn/calendar.png" alt="">
             <small class="mt-5">Start April,20 2021</small>
@@ -160,7 +168,10 @@
       </div>
    </div>
 </div>
-   
+</article>
+<!--course section finish-->
+
+<!--admission section start-->
    <section >
     <div class="container admission  " id="admission">
       <h2 class=" pt-5 pb-4 text-center">Admission</h2>
@@ -169,15 +180,158 @@
         <img class="mr-0 w-50 p-0 " src="images/Photos/Man.png" alt="">
         </div>
         <div class="col-md-7">
-            <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatibus culpa illo, deserunt vel dolore quos error ducimus, atque hic cupiditate, voluptatem quaerat provident perferendis laborum. Excepturi reprehenderit magni iusto?</p>
+            <p class="pt-3">For more than 20 years we have been developing courses in partnership with our faculty and instructional designers to ensure a learning experience that is tailored to the subject matter and the expected learning outcomes. We develop our online programs so that they mirror the same quality content you have always expected from a Penn State degree.</p>
+            <button type="button" class="btn btn-info">Register Now</button>
     </div>
 </div>
 </div>
 </div>
 </section>
+<!--admission section finish-->
 
-<section class="bottom-background ">
+<!--benefits section start-->
+<aside>
+<div class="container benefits" id="benefits">
+  <div class="container">
+    <h3 class="text-center pt-5 pb-4"> Benefits</h3>
+    <div class="row">
+    <div class="col-md-12 ">
+    <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Benefit #1: Students can get 1 month free access
+          </button>
+        </h2>
+      </div>
   
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+         You can join anytime at anywhere.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Benefit #2: Cancel the course anytime
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+       You can cancel your courses any time with no charging
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            benefit #3:Get help 24/7
+          </button>
+        </h2>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
+          We have lot of supported people who are ready to help you
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    </div>
+  </div>
+    </div>
+</div>
+</aside>
+<!--benefits section finish-->
+
+<!--events start-->
+<section>
+<div class="container events" id="events">
+  <h2 class="pt-5 pb-4 text-center">Events</h2>
+      <div class="card-deck">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Monthly Events</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer d-flex justify-content-center">
+            <button class="button ">Join Now>></button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Give Way Events</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer d-flex justify-content-center">
+            <button class="button">Join Now>></button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Weekly Events</h5> 
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional contentn.</p>
+          </div>
+          <div class="card-footer d-flex justify-content-center">
+            <button class="button">Join Now>></button>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</section>
+<!--events finish-->
+
+<!--contacts section start-->
+</time>
+<div class="container top-background mt-5" id="contact">
+  <div class="container-fluid">
+    <div class="row">
+    <div class="col-md-12  text-center py-5">
+    <h4 class="mb-5 font-width-bold">Contact with Us</h4>
+    <form class="form-single mx-auto">
+    <div class="form-row mb-3">
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="First name">
+      </div>
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Last name">
+      </div>
+    </div>
+    <div class="form-row mb-3">
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Phone">
+      </div>
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Email">
+      </div>
+    </div>
+    <div class="row mb-3">
+    <div class="col-md-12">
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-12">
+   <button type="button" class="btn btn-info">SEND MESSAGE</button>
+    </div>
+    </div>
+  </form>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</time>
+<!--contact section finish-->
+
+<!--footer-->
+<section class="bottom-background ">
   <div class="footer-block">
     <div class="row p-5">
       <div class="col-5">
@@ -213,13 +367,11 @@
       </p>
     </div>
 </section>
-
+<!--footer done-->
 
 
   
-
-
-
+<!--bootstrap js-->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

@@ -1,7 +1,7 @@
 .body{
     font-family: 'Poppins', sans-serif;
 }
-
+/**top-part**/
 h1{
     font-weight: 700;
     font-size: 50px;
@@ -23,6 +23,8 @@ h1{
     border: none;
     padding:9px 25px;
 }
+
+/**books part**/
 .book1,.book2, .book3, .book4{
     background-color: #f8fffb;
     padding: 10px 40px;
@@ -33,20 +35,20 @@ h1{
     background-color: rgb(247, 240, 247);
     cursor: pointer;
 }
+
+/**course part**/
 .card{
     border: none;
     box-shadow: 5px 5px 10px lightblue;
     border-radius: 10px;
 }
+
+/**admission part**/
 .admission{
     padding: 60px;
 }
-.footer-block{
-    background-color: #37475a;
-}
-.bottom-background{
-    background-color: lightslategray;
-}
+
+/**footer**/
 .footer-block {
     background-color: #282531;
     color: #f5f5f5;
