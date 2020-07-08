@@ -1,9 +1,7 @@
 .body{
     font-family: 'Poppins', sans-serif;
 }
-.container{
-    margin-bottom: 50px;
-}
+
 h1{
     font-weight: 700;
     font-size: 50px;
@@ -35,5 +33,15 @@ h1{
     background-color: rgb(247, 240, 247);
     cursor: pointer;
 }
-
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightblue;
+    border-radius: 10px;
+}
+.admission{
+    padding: 60px;
+}
+.footer-block{
+    background-color: #37475a;
+}
 
