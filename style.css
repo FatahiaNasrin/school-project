@@ -59,3 +59,10 @@ h1{
     h6{
         font-size: 12px;
     }
+/**media query**/
+    @media (max-width: 760px) {
+       .container .courses{
+            flex-direction: column;
+        }
+    }
+    
